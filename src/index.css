@@ -115,3 +115,8 @@ form span {
   color: var(--Red-400);
   font-weight: var(--heading-bold);
 }
+@media (min-width: 1000px) {
+  main{
+    
+  }
+}

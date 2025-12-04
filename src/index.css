@@ -18,11 +18,11 @@
   --heading-light: 300;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --Red-400: hsl(0, 92%, 24%);
   }
-}
+} */
 
 body {
   background-color: var(--Red-400);
@@ -106,14 +106,16 @@ button {
   font-size: 16px;
   font-weight: var(--heading-bold);
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 form p {
   font-size: var(--text-size);
   font-size: 12px;
 }
-form span {
+form a {
   color: var(--Red-400);
   font-weight: var(--heading-bold);
+  text-decoration: none;
 }
 @media (min-width: 1000px) {
   body{

@@ -116,7 +116,11 @@ form span {
   font-weight: var(--heading-bold);
 }
 @media (min-width: 1000px) {
+  body{
+    padding: 4rem 6rem;
+  }
   main{
     flex-direction: row;
+    align-items: center;
   }
 }

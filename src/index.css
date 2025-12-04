@@ -117,6 +117,9 @@ form a {
   font-weight: var(--heading-bold);
   text-decoration: none;
 }
+form a:hover{
+  color:blue;
+}
 @media (min-width: 1000px) {
   body{
     padding: 2rem 6rem;
